@@ -1,9 +1,8 @@
 import React from 'react';
 
-const Header = () => {
-    return (
-        <header id="main-header">JSHunt</header>
-    );
-};
+import "./styles.css"
+
+// React: stateless components -> Função menos verbosa
+const Header = () => <header id="main-header">JSHunt</header>
 
 export default Header;
